@@ -20,8 +20,3 @@ def square_array(array)
   new_arr
 end
 =end
-def square_array(array)
-  
-  array.collect {|n| n ** 2 }
-    binding.pry
-end
