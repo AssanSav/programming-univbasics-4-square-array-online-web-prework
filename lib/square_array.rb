@@ -23,7 +23,8 @@ end
 def square_array(array)
   
   array.collect do |n| 
-    return n ** 2 
     binding.pry
+    return n ** 2 
+    
 end
 end
