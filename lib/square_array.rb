@@ -9,7 +9,7 @@ def square_array(array)
   end
   new_arr 
 end
-=end
+
 
 def square_array(array)
   new_arr = []
@@ -18,4 +18,8 @@ def square_array(array)
     new_arr << n **2 
   end 
   new_arr
+end
+=end
+def square_array(array)
+  array.collect {|n| return n ** 2 }
 end
