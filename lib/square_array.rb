@@ -22,6 +22,7 @@ end
 =end
 def square_array(array)
   binding.pry
-  array.collect {|n| return n ** 2 }
-
+  array.collect do |n| 
+    return n ** 2 
+end
 end
