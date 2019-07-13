@@ -1,5 +1,5 @@
 require 'pry'
-=begin
+
 def square_array(array)
   count = 0 
   new_arr = []
@@ -10,7 +10,7 @@ def square_array(array)
   new_arr 
 end
 
-
+=begin
 def square_array(array)
   new_arr = []
   array.each do |n| 
