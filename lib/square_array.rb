@@ -22,4 +22,5 @@ end
 =end
 def square_array(array)
   array.collect {|n| return n ** 2 }
+binding.prry
 end
